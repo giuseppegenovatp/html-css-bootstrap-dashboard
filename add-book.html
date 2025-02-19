@@ -54,14 +54,14 @@
     <main>
         <div class="container">
             <h2 class="my-4">Nuovo Libro</h2>
-            <form class="row g-3">
+            <form class="row g-3 fw-bold">
                 <div class="col-6 col-md-6">
                   <label for="nome_autore" class="form-label">Nome Autore</label>
-                  <input type="text" class="form-control" id="nome_autore">
+                  <input type="text" class="form-control" id="nome_autore" placeholder="Inserisci il nome dell'autore">
                 </div>
                 <div class="col-6 col-md-6">
                   <label for="cognome_autore" class="form-label">Cognome Autore</label>
-                  <input type="password" class="form-control" id="cognome_autore">
+                  <input type="password" class="form-control" id="cognome_autore" placeholder="Inserisci il cognome dell'autore">
                 </div>
                 <div class="col-12">
                   <label for="titolo_del_libro" class="form-label">Titolo</label>
@@ -79,15 +79,15 @@
                   </div>
                 <div class="col-md-6">
                   <label for="data_publ" class="form-label">Inserisci l'anno di pubblicazione</label>
-                  <input type="number" class="form-control" id="data_publ">
+                  <input type="number" class="form-control" id="data_publ" placeholder="Inserisci l'anno di pubblicazione">
                 </div>
                 <div class="col-md-2 mb-4">
                   <label for="codice_isbn" class="form-label">ISBN#</label>
-                  <input type="text" class="form-control" id="codice_isbn" required="#">
+                  <input type="text" class="form-control" id="codice_isbn" required="#" placeholder="Inserisci il codice ISBN#">
                 </div>
-                <hr>
-
+                
                 <div class="col-12">
+                    <hr>
                     <div class="mb-2">
                         <label for="note" class="form-label">Note</label>
                         <textarea class="form-control" id="note" rows="3">Inserisci eventuali note sul libro</textarea>
@@ -99,7 +99,7 @@
                     </label>
                   </div>
                 </div>
-                <div class="col-12">
+                <div class="col-12 mb-4">
                   <button type="submit" class="btn btn-primary">Aggiungi libro</button>
                 </div>
               </form>
